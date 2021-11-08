@@ -7,20 +7,47 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="409dp"
-        android:layout_height="27dp"
-        android:layout_marginBottom="38dp"
-        android:background="#DFFFFFFF"
-        android:text="@string/bitf18a535"
-        android:textSize="24sp"
+        android:id="@+id/textView4"
+        android:layout_width="390dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="180dp"
+        android:text="@string/hafiz_hamza_mukhtar"
+        android:textSize="36sp"
         android:textStyle="bold"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.049"
-        tools:visibility="visible" />
+        app:layout_constraintVertical_bias="0.258"
+        tools:text="Hafiz Hamza Mukhtar" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="203dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginLeft="124dp"
+        android:layout_marginBottom="4dp"
+        android:onClick="Repository"
+        android:text="@string/repository_link"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="222dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginLeft="124dp"
+        android:layout_marginTop="180dp"
+        android:text="@string/bitf18a535"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="BITF18A535" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Makharij Quiz app</string>
     <string name="bitf18a535">BITF18A535</string>
+    <string name="hafiz_hamza_mukhtar">Hafiz Hamza Mukhtar</string>
+    <string name="repository_link">Repository Link</string>
+    <string name="bit18a535">BIT18A535</string>
 </resources>
