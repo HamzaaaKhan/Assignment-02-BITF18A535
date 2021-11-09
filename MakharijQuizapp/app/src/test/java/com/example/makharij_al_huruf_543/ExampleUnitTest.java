@@ -1,4 +1,4 @@
-package com.example.makharijquizapp;
+package com.example.makharij_al_huruf_543;
 
 import org.junit.Test;
 
