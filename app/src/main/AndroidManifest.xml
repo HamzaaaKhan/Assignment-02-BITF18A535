@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.makharijquizapp">
+    package="com.example.makharijulmahroof">
 
     <application
         android:allowBackup="true"
@@ -8,8 +8,19 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MakharijQuizApp">
-        <activity android:name=".MainActivity">
+        android:theme="@style/Theme.EmissionPointsQuiz">
+        <activity
+            android:name="com.example.makharijulmahroof.Results"
+            android:exported="false" />
+        <activity
+            android:name="com.example.makharijulmahroof.QuizActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.makharijulmahroof.Homepage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.makharijulmahroof.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
