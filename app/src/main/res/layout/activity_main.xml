@@ -10,15 +10,12 @@
         android:id="@+id/nextActivity"
         android:layout_width="163dp"
         android:layout_height="62dp"
-        android:layout_marginTop="80dp"
         android:onClick="nextActivity"
         android:text="Go to learning"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.991"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
@@ -40,14 +37,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="408dp"
-        android:layout_height="268dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="240dp"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
-
     <Button
         android:id="@+id/button"
         android:layout_width="188dp"
@@ -56,6 +45,20 @@
         android:text="Repository"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/nextActivity"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="411dp"
+        android:layout_height="312dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginBottom="141dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/screenshot_2021_11_11_013313" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
